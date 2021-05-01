@@ -188,12 +188,6 @@ nav a:hover {
   height: auto;
 }
 
-@media (min-width: 576px) {
-  .drink {
-    width: 50%;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .container {
     max-width: 960px;
@@ -235,9 +229,5 @@ nav a:hover {
     padding-top: 4rem;
 
     text-align: center;
-  }
-
-  .drink {
-    width: 33.333%;
   }
 }

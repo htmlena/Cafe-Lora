@@ -58,3 +58,15 @@
 .order-btn:active {
   background-color: #e67e51;
 }
+
+@media (min-width: 576px) {
+  .drink {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .drink {
+    width: 33.333%;
+  }
+}
