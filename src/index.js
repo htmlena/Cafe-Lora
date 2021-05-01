@@ -1,5 +1,4 @@
 import './style.css';
-import { Layer } from './Layer';
 import { Drink } from './Drinks';
 
 // nav functionality
@@ -17,24 +16,6 @@ for (let i = 0; i < navElmAll.length; i++) {
     navElm.classList.add('nav-closed');
   });
 }
-
-// drink component
-
-const drink = {
-  id: 'romano',
-  name: 'Romano',
-  ordered: false,
-  layers: [
-    {
-      color: '#fbdf5b',
-      label: 'citrón',
-    },
-    {
-      color: '#613916',
-      label: 'espresso',
-    },
-  ],
-};
 
 // fetch
 
