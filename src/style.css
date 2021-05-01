@@ -159,10 +159,18 @@ nav a:hover {
   background-attachment: fixed;
 }
 
+.container-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .gallery-text {
   background-color: hsla(23, 8%, 80%, 0.4);
+  backdrop-filter: blur(2px);
   text-align: center;
-  padding: 3rem;
+  padding: 7rem;
   font-size: 2rem;
   font-weight: 400;
 }
