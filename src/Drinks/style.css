@@ -34,6 +34,12 @@
   margin-left: 1rem;
 }
 
+.drink__controls {
+  margin-top: 1rem;
+
+  text-align: center;
+}
+
 .order-btn {
   padding: 0.5rem 1rem;
 
