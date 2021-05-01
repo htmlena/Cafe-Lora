@@ -13,3 +13,22 @@ for (let i = 0; i < navElmAll.length; i++) {
     navElm.classList.add('nav-closed');
   });
 }
+
+let ordered = true;
+
+const orderBtnElm = document.querySelector('.order-btn');
+const drinkCupElm = document.querySelector('.drink__cup');
+orderBtnElm.addEventListener('click', () => {
+  orderBtnElm.textContent = 'Zrušit';
+  drinkCupElm.classList.add('drink__cup--selected');
+
+  if (ordered === true) {
+    orderBtnElm.textContent = 'Objednat';
+    drinkCupElm.classList.remove('drink__cup--selected');
+    ordered = false;
+  } else if (ordered === false) {
+    orderBtnElm.textContent = 'Zrušit';
+    drinkCupElm.classList.add('drink__cup--selected');
+    ordered = true;
+  }
+});
